@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.abc.androiduidesign.fingerprint_auth.FingerAuthActivity">
+
+    <TextView
+        android:id="@+id/textViewfingerAuth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="FingerPrintAuth" />
+
+    <ImageView
+        android:id="@+id/imageViewfinger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewfingerAuth"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="62dp"
+        app:srcCompat="@mipmap/ic_launcher_finger" />
+
+    <TextView
+        android:id="@+id/textViewparaleble"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageViewfinger"
+        android:layout_marginTop="12dp"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="Place your Finger" />
+</RelativeLayout>

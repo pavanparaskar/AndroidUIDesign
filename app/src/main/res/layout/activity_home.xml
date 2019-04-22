@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/spash_layout">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+        <Button
+            android:id="@+id/btn_login_tab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/btn_corner_back"
+            android:text="Login Tab"
+            android:textColor="@android:color/darker_gray"></Button>
+
+        <Button
+            android:id="@+id/btn_sqlite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/btn_corner_back"
+            android:text="SQLITE"
+            android:textColor="@android:color/darker_gray"></Button>
+
+        <Button
+            android:id="@+id/btn_image_slider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+
+            android:background="@drawable/btn_corner_back"
+            android:text="Image Slider"
+            android:textColor="@android:color/darker_gray"></Button>
+
+        <Button
+            android:id="@+id/btn_json"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/btn_corner_back"
+            android:text="Volley Json"
+            android:textColor="@android:color/darker_gray"></Button>
+
+        <Button
+            android:id="@+id/btn_finger_print"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/btn_corner_back"
+            android:text="Finger Print"
+            android:textColor="@android:color/darker_gray"></Button>
+
+        <Button
+            android:id="@+id/btn_signin_signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/btn_corner_back"
+            android:text="SignIn SignUP"
+            android:textColor="@android:color/darker_gray"></Button>
+
+        <Button
+            android:id="@+id/btnChat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/btn_corner_back"
+            android:text="Chat Activity"
+            android:textColor="@android:color/darker_gray"></Button>
+
+        <Button
+            android:id="@+id/btnContentSlider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/btn_corner_back"
+            android:text="Content Slider"
+            android:textColor="@android:color/darker_gray"></Button>
+        <Button
+            android:id="@+id/btnCustomLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/btn_corner_back"
+            android:text="Custom Login"
+            android:textColor="@android:color/darker_gray"></Button>
+        <Button
+            android:id="@+id/btnSketchApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/btn_corner_back"
+            android:text="Sketch App"
+            android:textColor="@android:color/darker_gray"></Button>
+
+        <Button
+            android:id="@+id/btnBaner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/btn_corner_back"
+            android:text="Baner App"
+            android:textColor="@android:color/darker_gray"></Button>
+    </LinearLayout>
+</ScrollView>

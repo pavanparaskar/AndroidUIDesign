@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:icon="@drawable/home_icon"
+        android:title="Home"></item>
+    <item
+        android:icon="@drawable/music_icon"
+        android:title="Music"></item>
+    <item
+        android:icon="@drawable/network_icon"
+        android:title="NetWork"></item>
+    <item
+        android:icon="@drawable/setting_icon"
+        android:title="Sett"></item>
+
+</menu>

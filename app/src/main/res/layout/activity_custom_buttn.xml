@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.abc.androiduidesign.CustomButtnActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:subtitle="Custom Button"
+        app:subtitleTextColor="@android:color/holo_orange_dark"></android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/btn_left_corner"
+                android:padding="1dp"
+                android:src="@drawable/ic_email_black_24dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/btn_right_corner"
+                android:inputType="textEmailAddress"
+                android:padding="10dp"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/btn_left_corner"
+                android:padding="1dp"
+                android:src="@drawable/ic_vpn_key_black_24dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/btn_right_corner"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <com.spark.submitbutton.SubmitButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Login"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            app:sub_btn_background="#181ec2"
+            app:sub_btn_duration="3000"
+            app:sub_btn_line_color="#1c82e1"
+            app:sub_btn_ripple_color="@color/colorAccent"
+            app:sub_btn_tick_color="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.abc.androiduidesign">
+
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SPlashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".MainActivity" />
+        //fingerprint activity..........................................
+        <activity android:name=".fingerprint_auth.FingerAuthActivity" />
+        //fingerprint activity..........................................
+
+        //Image Slider Activity..........................................
+
+        //Android UI design tutorial nos 10......
+        <activity android:name=".image_slider.ImageSliderActivity" />
+        //Image Slider Activity..........................................
+        <activity android:name=".NavigationActivity" />
+        <activity android:name=".speech.SpeechActivity" />
+        //Json Volley main Activity.....
+        <activity android:name=".volley_json.JsonMainActivity" />
+        //Sqlite database mainActivity....
+        <activity android:name=".sqlite.SqliteMainActivity" />
+        <activity android:name=".sqlite.EmployeeActivity" />
+        <activity
+            android:name=".login_tab.LoginTabMAinActivity"
+            android:label="@string/title_activity_login_tab_main"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".signin_signup.SignIn_SignUP" />
+        <activity
+            android:name=".signin_signup.SignIn"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".signin_signup.Register"
+            android:screenOrientation="portrait" />
+        <activity android:name=".chat.ChatActivity" />
+        <activity android:name=".Content_slidder.ContentSliderActivity" />
+        <activity android:name=".CustomButtnActivity" />
+        <activity android:name=".SketchActivity" />
+        <activity android:name=".BannerActivity"></activity>
+    </application>
+
+</manifest>
